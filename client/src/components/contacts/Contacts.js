@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import ContactContext from '../../context/contact/contactContext'
 import ContactItem from './ContactItem'
 
-export const Contacts = () => {
+const Contacts = () => {
   const contactContext = useContext(ContactContext);
   const { contacts } = contactContext;
 
