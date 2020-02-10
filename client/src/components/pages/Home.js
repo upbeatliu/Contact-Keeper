@@ -1,13 +1,15 @@
 import React from 'react'
 import ContactForm from './../contacts/ContactForm'
-import Contact from './../contacts/Contacts'
+import Contacts from './../contacts/Contacts'
+import ContactFilter from './../contacts/ContactFilter'
 
 export const Home = () => {
   return (
     <div className='grid-2'>
       <div><ContactForm /></div>
       <div>
-        <Contact />
+        <ContactFilter />
+        <Contacts />
       </div>
     </div>
   )
