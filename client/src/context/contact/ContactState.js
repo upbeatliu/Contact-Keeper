@@ -2,7 +2,7 @@ import React, { useReducer } from 'react'
 import uuid from 'uuid'
 import ContactContext from './contactContext'
 import ContactReducer from './contactReducer'
-import { GET_CONTACTS, ADD_CONTACT, DELETE_CONTACT, UPDATE_CONTACT, FILTER_CONTACTS, CLEAR_CONTACTS, CONTACT_ERROR, SET_CURRENT, CLEAR_CURRENT, CLEAR_FILTER } from '../types'
+import { ADD_CONTACT, DELETE_CONTACT, UPDATE_CONTACT, FILTER_CONTACTS, SET_CURRENT, CLEAR_CURRENT, CLEAR_FILTER } from '../types'
 
 const ContactState = props => {
   const initialState = {
